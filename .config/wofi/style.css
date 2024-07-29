@@ -1,0 +1,48 @@
+/* Make the entire window transparent */
+#window {
+    background-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+
+/* Style the outer box */
+#outer-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+/* Style the input box */
+#input {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+/* Style the inner box (entries) */
+#inner-box {
+    background-color: rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+}
+
+/* Style each entry */
+#entry {
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ffffff;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 2px 0;
+}
+
+/* Style selected entry */
+#entry:selected {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Text styling */
+#text {
+    color: #ffffff;
+    font-size: 16px;
+}
+
