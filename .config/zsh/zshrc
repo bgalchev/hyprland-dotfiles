@@ -1,4 +1,5 @@
 #!/bin/sh
+
 source ~/.config/zsh/zsh-aliases
 
 export LC_ALL=en_US.UTF-8

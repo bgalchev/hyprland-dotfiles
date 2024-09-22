@@ -5,8 +5,8 @@
 alias dotfiles='/usr/bin/git --git-dir=$HOME/repos/dotfiles/ --work-tree=$HOME'
 alias volume='/home/vegapunk/repos/shell_scripts/pulsemixer'
 alias bt='bluetuith'
-
-export PATH='/usr/bin:$PATH'
+# rustup 
+export PATH="$HOME/.cargo/bin:/usr/bin:$PATH"
 
 alias f='fzf'
 alias zsh-update-plugins="find "$ZSH_DIR/plugins" -type d -exec test -e '{}/.git' ';' -print0 | xargs -I {} -0 git -C {} pull -q"
